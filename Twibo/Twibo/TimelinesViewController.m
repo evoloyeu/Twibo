@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 rexlei. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "TimelinesViewController.h"
 
-@interface FirstViewController ()
+@interface TimelinesViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation TimelinesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

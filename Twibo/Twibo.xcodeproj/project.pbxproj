@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		180CC55A19F1DBC9000456B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CC55919F1DBC9000456B1 /* main.m */; };
 		180CC55D19F1DBC9000456B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CC55C19F1DBC9000456B1 /* AppDelegate.m */; };
-		180CC56019F1DBC9000456B1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CC55F19F1DBC9000456B1 /* FirstViewController.m */; };
-		180CC56319F1DBC9000456B1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CC56219F1DBC9000456B1 /* SecondViewController.m */; };
+		180CC56019F1DBC9000456B1 /* TimelinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CC55F19F1DBC9000456B1 /* TimelinesViewController.m */; };
+		180CC56319F1DBC9000456B1 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CC56219F1DBC9000456B1 /* NotificationViewController.m */; };
 		180CC56619F1DBC9000456B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CC56419F1DBC9000456B1 /* Main.storyboard */; };
 		180CC56819F1DBC9000456B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180CC56719F1DBC9000456B1 /* Images.xcassets */; };
 		180CC56B19F1DBC9000456B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180CC56919F1DBC9000456B1 /* LaunchScreen.xib */; };
 		180CC57719F1DBC9000456B1 /* TwiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CC57619F1DBC9000456B1 /* TwiboTests.m */; };
+		187E319619F1F23700A88BB2 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E319519F1F23700A88BB2 /* MessageViewController.m */; };
+		187E319919F1F25700A88BB2 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E319819F1F25700A88BB2 /* MeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +35,20 @@
 		180CC55919F1DBC9000456B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		180CC55B19F1DBC9000456B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		180CC55C19F1DBC9000456B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		180CC55E19F1DBC9000456B1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		180CC55F19F1DBC9000456B1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		180CC56119F1DBC9000456B1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		180CC56219F1DBC9000456B1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		180CC55E19F1DBC9000456B1 /* TimelinesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimelinesViewController.h; sourceTree = "<group>"; };
+		180CC55F19F1DBC9000456B1 /* TimelinesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimelinesViewController.m; sourceTree = "<group>"; };
+		180CC56119F1DBC9000456B1 /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		180CC56219F1DBC9000456B1 /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
 		180CC56519F1DBC9000456B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		180CC56719F1DBC9000456B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		180CC56A19F1DBC9000456B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		180CC57019F1DBC9000456B1 /* TwiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180CC57519F1DBC9000456B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180CC57619F1DBC9000456B1 /* TwiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwiboTests.m; sourceTree = "<group>"; };
+		187E319419F1F23700A88BB2 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		187E319519F1F23700A88BB2 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		187E319719F1F25700A88BB2 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		187E319819F1F25700A88BB2 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +92,14 @@
 			children = (
 				180CC55B19F1DBC9000456B1 /* AppDelegate.h */,
 				180CC55C19F1DBC9000456B1 /* AppDelegate.m */,
-				180CC55E19F1DBC9000456B1 /* FirstViewController.h */,
-				180CC55F19F1DBC9000456B1 /* FirstViewController.m */,
-				180CC56119F1DBC9000456B1 /* SecondViewController.h */,
-				180CC56219F1DBC9000456B1 /* SecondViewController.m */,
+				180CC55E19F1DBC9000456B1 /* TimelinesViewController.h */,
+				180CC55F19F1DBC9000456B1 /* TimelinesViewController.m */,
+				180CC56119F1DBC9000456B1 /* NotificationViewController.h */,
+				180CC56219F1DBC9000456B1 /* NotificationViewController.m */,
+				187E319419F1F23700A88BB2 /* MessageViewController.h */,
+				187E319519F1F23700A88BB2 /* MessageViewController.m */,
+				187E319719F1F25700A88BB2 /* MeViewController.h */,
+				187E319819F1F25700A88BB2 /* MeViewController.m */,
 				180CC56419F1DBC9000456B1 /* Main.storyboard */,
 				180CC56719F1DBC9000456B1 /* Images.xcassets */,
 				180CC56919F1DBC9000456B1 /* LaunchScreen.xib */,
@@ -224,9 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180CC56319F1DBC9000456B1 /* SecondViewController.m in Sources */,
+				187E319919F1F25700A88BB2 /* MeViewController.m in Sources */,
+				180CC56319F1DBC9000456B1 /* NotificationViewController.m in Sources */,
+				187E319619F1F23700A88BB2 /* MessageViewController.m in Sources */,
 				180CC55D19F1DBC9000456B1 /* AppDelegate.m in Sources */,
-				180CC56019F1DBC9000456B1 /* FirstViewController.m in Sources */,
+				180CC56019F1DBC9000456B1 /* TimelinesViewController.m in Sources */,
 				180CC55A19F1DBC9000456B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +430,7 @@
 				180CC57C19F1DBC9000456B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180CC57D19F1DBC9000456B1 /* Build configuration list for PBXNativeTarget "TwiboTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				180CC57F19F1DBC9000456B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

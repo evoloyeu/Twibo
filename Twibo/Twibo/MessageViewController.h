@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  MessageViewController.h
 //  Twibo
 //
 //  Created by rexlei on 2014-10-17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface MessageViewController : UIViewController
 
 @end
-

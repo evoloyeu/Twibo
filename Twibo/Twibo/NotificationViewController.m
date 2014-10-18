@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 rexlei. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "NotificationViewController.h"
 
-@interface SecondViewController ()
+@interface NotificationViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation NotificationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
